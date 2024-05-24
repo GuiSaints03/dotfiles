@@ -1,21 +1,11 @@
-// ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
-// ╠╩╗║╣ ║║║ ║ ║ ║
-// ╚═╝╚═╝╝╚╝ ╩ ╚═╝
-// ┌─┐┌─┐┌┐┌┌─┐┬┌─┐┬ ┬┬─┐┌─┐┌┬┐┬┌─┐┌┐┌
-// │  │ ││││├┤ ││ ┬│ │├┬┘├─┤ │ ││ ││││
-// └─┘└─┘┘└┘└  ┴└─┘└─┘┴└─┴ ┴ ┴ ┴└─┘┘└┘
 
 const CONFIG = {
-	// ┌┐ ┌─┐┌─┐┬┌─┐┌─┐
-	// ├┴┐├─┤└─┐││  └─┐
-	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'gh0stzk',
+	name: 'Guilherme',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: true,
-	timeZone: 'America/Mexico_City',
+	twelveHourFormat: false,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -33,8 +23,8 @@ const CONFIG = {
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '19.593',
-	defaultLongitude: '-99.250',
+	defaultLatitude: '-23.559',
+	defaultLongitude: '-46.636',
 
 	// Autochange
 	autoChangeTheme: false,
@@ -140,8 +130,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'z0mbi3 dots',
-					link: 'https://github.com/gh0stzk/dotfiles',
+					name: 'Github',
+					link: 'https://github.com/',
 				},
 				{
 					name: 'Arch Linux',
@@ -210,20 +200,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Programming',
-					link: 'https://www.reddit.com/r/programming/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
 					name: 'Go',
 					link: 'https://www.reddit.com/r/golang/',
 				},
 				{
-					name: 'Python',
-					link: 'https://www.reddit.com/r/Python/',
+					name: 'C++',
+					link: 'https://www.reddit.com/r/cpp/',
+				},
+				{
+					name: 'Java',
+					link: 'https://www.reddit.com/r/java/',
+				},
+				{
+					name: 'Programming',
+					link: 'https://www.reddit.com/r/programming/',
 				},
 			],
 		},

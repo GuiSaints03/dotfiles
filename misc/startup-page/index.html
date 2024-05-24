@@ -7,13 +7,6 @@
 		<link rel="stylesheet" href="app.css" />
 		<script src="https://unpkg.com/lucide@latest"></script>
 	</head>
-
-	<!-- 
-      ╔╗ ╔═╗╔╗╔╔╦╗╔═╗
-      ╠╩╗║╣ ║║║ ║ ║ ║
-      ╚═╝╚═╝╝╚╝ ╩ ╚═╝
-      -->
-
 	<body class="">
 		<button id="themeButton">
 			<i id="themeIcon" icon-name="moon"></i>
@@ -23,7 +16,9 @@
 
 			<div class="timeBlock">
 				<div class="clock">
-					<div id="time"></div>
+					<div id="hour"></div>
+					<div id="separator"></div>
+					<div id="minutes"></div>
 				</div>
 				<div id="greetings"></div>
 			</div>
@@ -32,7 +27,8 @@
 
 			<div class="weatherBlock">
 				<div class="date">
-					<div id="date"></div>
+					<div id="month"></div>
+					<div id="day"></div>
 				</div>
 				<div class="weather">
 					<div class="weatherIcon">
