@@ -41,15 +41,15 @@ clear
 
 ########## ---------- Install packages ---------- ##########
 
-logo "Installing needed packages.."
+echo "Installing needed packages.."
 
 dependencias=(alacritty base-devel brightnessctl bspwm dunst feh firefox git hyfetch imagemagick jq \
 			        jgmenu libwebp lsd lxappearance maim mesa mpc mpd neovim ncmpcpp npm pamixer pacman-contrib \
 			        papirus-icon-theme physlock picom playerctl polybar polkit-gnome python-gobject ranger \
 			        rofi rustup sxhkd tmux ttf-inconsolata ttf-jetbrains-mono ttf-jetbrains-mono-nerd \
 			        ttf-joypixels ttf-terminus-nerd thunar ueberzug unzip vulkan-radeon webp-pixbuf-loader xclip xdg-user-dirs \
-			        xdo xdotool xf86-video-amdgpu xorg-xdpyinfo xorg-xinit xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot \
-			        xorg-xwininfo zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
+			        xdo xdotool xf86-video-amdgpu xorg-server xorg-xdpyinfo xorg-xinit xorg-xkill xorg-xprop xorg-xrandr xorg-xsetroot \
+			        xorg-xwininfo xterm zsh zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
 
 is_installed() {
     pacman -Q "$1" &> /dev/null
@@ -82,7 +82,7 @@ fi
 
 ########## ---------- Cloning the Rice! ---------- ##########
 
-logo "Downloading dotfiles"
+echo "Downloading dotfiles"
 
 repo_url="https://github.com/guisaints03/dotfiles"
 repo_dir="$HOME/dotfiles"
