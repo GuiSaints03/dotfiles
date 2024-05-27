@@ -50,7 +50,7 @@ case "$1" in
         firefox
         ;;
     --editor)
-        geany
+        nvim
         ;;
     --telegram)
         telegram-desktop

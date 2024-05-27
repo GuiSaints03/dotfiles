@@ -159,7 +159,7 @@ clear
 
 ########## ---------- Installing Paru & others ---------- ##########
 
-logo "installing Paru, Eww, tdrop & xqp"
+echo "installing Paru, Eww, tdrop & xqp"
 
 # Installing Paru
 if command -v paru >/dev/null 2>&1; then
